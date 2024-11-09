@@ -1,0 +1,23 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 2
+
+login: GB2023108ecfa0
+password: a9b3d8f0ba
+
+title: 'TEST !!!'
+description: 'test description'
+content: 'TEST content TEST content TEST content'
+
+username: Evgeniy
+user_email: kot-1012@mail.ru
+content_contact: Роза - мой любимый цветок!
+
+fromaddr: kot-1012@mail.ru
+toaddr: kot-1012@mail.ru
+fromaddr_passwd: WokdnjE4648igPfdidFb8gt9
+
+url_login: https://test-stand.gb.ru/gateway/login
+url_post: https://test-stand.gb.ru/api/posts
+address_post: https://test-stand.gb.ru/gateway/posts
+not_me_title: 'Test1'
