@@ -11,7 +11,7 @@ content: 'TEST content TEST content TEST content'
 
 username: Evgeniy
 user_email: kot-1012@mail.ru
-content_contact: Роза - мой любимый цветок!
+content_contact: test kot!
 
 fromaddr: kot-1012@mail.ru
 toaddr: kot-1012@mail.ru

@@ -1,0 +1,144 @@
+2024-11-09 14:35:31 INFO Test check not me post started
+2024-11-09 14:35:33 INFO Test create post api started
+2024-11-09 14:35:34 INFO Test check description api started
+2024-11-09 14:35:36 INFO ====== WebDriver manager ======
+2024-11-09 14:35:38 INFO Get LATEST chromedriver version for google-chrome
+2024-11-09 14:35:39 INFO Get LATEST chromedriver version for google-chrome
+2024-11-09 14:35:39 INFO Driver [C:\Users\Kot\.wdm\drivers\chromedriver\win64\130.0.6723.116\chromedriver-win32/chromedriver.exe] found in cache
+2024-11-09 14:35:40 INFO Test1 Starting
+2024-11-09 14:35:43 INFO Test2 Starting
+2024-11-09 14:35:44 INFO Test3 Stsrting
+2024-11-09 14:35:55 ERROR Find element exception
+Traceback (most recent call last):
+  File "D:\geekbrains\Обучение_Автоматизация тестирования на Python\Автоматизация тестирования веб-приложений на Python (семинары)\HW_4_MY\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kot\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[1]/div/label/input')
+Stacktrace:
+	GetHandleVerifier [0x00F5EBD3+24307]
+	(No symbol) [0x00EE8D74]
+	(No symbol) [0x00DCC323]
+	(No symbol) [0x00E0DC86]
+	(No symbol) [0x00E0DECB]
+	(No symbol) [0x00E4B9F2]
+	(No symbol) [0x00E2FED4]
+	(No symbol) [0x00E49579]
+	(No symbol) [0x00E2FC26]
+	(No symbol) [0x00E0219C]
+	(No symbol) [0x00E0311D]
+	GetHandleVerifier [0x01208D93+2818227]
+	GetHandleVerifier [0x0126542E+3196750]
+	GetHandleVerifier [0x0125D9D2+3165426]
+	GetHandleVerifier [0x00FFDA70+675216]
+	(No symbol) [0x00EF1B3D]
+	(No symbol) [0x00EEEA18]
+	(No symbol) [0x00EEEBB5]
+	(No symbol) [0x00EE1640]
+	BaseThreadInitThunk [0x769E7BA9+25]
+	RtlInitializeExceptionChain [0x778FC0CB+107]
+	RtlClearBits [0x778FC04F+191]
+
+2024-11-09 14:35:55 ERROR Element ('xpath', '//*[@id="create-item"]/div/div/div[1]/div/label/input') not found
+2024-11-09 14:36:05 ERROR Find element exception
+Traceback (most recent call last):
+  File "D:\geekbrains\Обучение_Автоматизация тестирования на Python\Автоматизация тестирования веб-приложений на Python (семинары)\HW_4_MY\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kot\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[2]/div/label/span/textarea')
+Stacktrace:
+	GetHandleVerifier [0x00F5EBD3+24307]
+	(No symbol) [0x00EE8D74]
+	(No symbol) [0x00DCC323]
+	(No symbol) [0x00E0DC86]
+	(No symbol) [0x00E0DECB]
+	(No symbol) [0x00E4B9F2]
+	(No symbol) [0x00E2FED4]
+	(No symbol) [0x00E49579]
+	(No symbol) [0x00E2FC26]
+	(No symbol) [0x00E0219C]
+	(No symbol) [0x00E0311D]
+	GetHandleVerifier [0x01208D93+2818227]
+	GetHandleVerifier [0x0126542E+3196750]
+	GetHandleVerifier [0x0125D9D2+3165426]
+	GetHandleVerifier [0x00FFDA70+675216]
+	(No symbol) [0x00EF1B3D]
+	(No symbol) [0x00EEEA18]
+	(No symbol) [0x00EEEBB5]
+	(No symbol) [0x00EE1640]
+	BaseThreadInitThunk [0x769E7BA9+25]
+	RtlInitializeExceptionChain [0x778FC0CB+107]
+	RtlClearBits [0x778FC04F+191]
+
+2024-11-09 14:36:05 ERROR Element ('xpath', '//*[@id="create-item"]/div/div/div[2]/div/label/span/textarea') not found
+2024-11-09 14:36:15 ERROR Find element exception
+Traceback (most recent call last):
+  File "D:\geekbrains\Обучение_Автоматизация тестирования на Python\Автоматизация тестирования веб-приложений на Python (семинары)\HW_4_MY\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kot\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[3]/div/label/span/textarea')
+Stacktrace:
+	GetHandleVerifier [0x00F5EBD3+24307]
+	(No symbol) [0x00EE8D74]
+	(No symbol) [0x00DCC323]
+	(No symbol) [0x00E0DC86]
+	(No symbol) [0x00E0DECB]
+	(No symbol) [0x00E4B9F2]
+	(No symbol) [0x00E2FED4]
+	(No symbol) [0x00E49579]
+	(No symbol) [0x00E2FC26]
+	(No symbol) [0x00E0219C]
+	(No symbol) [0x00E0311D]
+	GetHandleVerifier [0x01208D93+2818227]
+	GetHandleVerifier [0x0126542E+3196750]
+	GetHandleVerifier [0x0125D9D2+3165426]
+	GetHandleVerifier [0x00FFDA70+675216]
+	(No symbol) [0x00EF1B3D]
+	(No symbol) [0x00EEEA18]
+	(No symbol) [0x00EEEBB5]
+	(No symbol) [0x00EE1640]
+	BaseThreadInitThunk [0x769E7BA9+25]
+	RtlInitializeExceptionChain [0x778FC0CB+107]
+	RtlClearBits [0x778FC04F+191]
+
+2024-11-09 14:36:15 ERROR Element ('xpath', '//*[@id="create-item"]/div/div/div[3]/div/label/span/textarea') not found
+2024-11-09 14:36:26 ERROR Find element exception
+Traceback (most recent call last):
+  File "D:\geekbrains\Обучение_Автоматизация тестирования на Python\Автоматизация тестирования веб-приложений на Python (семинары)\HW_4_MY\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kot\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="create-item"]/div/div/div[7]/div/button')
+Stacktrace:
+	GetHandleVerifier [0x00F5EBD3+24307]
+	(No symbol) [0x00EE8D74]
+	(No symbol) [0x00DCC323]
+	(No symbol) [0x00E0DC86]
+	(No symbol) [0x00E0DECB]
+	(No symbol) [0x00E4B9F2]
+	(No symbol) [0x00E2FED4]
+	(No symbol) [0x00E49579]
+	(No symbol) [0x00E2FC26]
+	(No symbol) [0x00E0219C]
+	(No symbol) [0x00E0311D]
+	GetHandleVerifier [0x01208D93+2818227]
+	GetHandleVerifier [0x0126542E+3196750]
+	GetHandleVerifier [0x0125D9D2+3165426]
+	GetHandleVerifier [0x00FFDA70+675216]
+	(No symbol) [0x00EF1B3D]
+	(No symbol) [0x00EEEA18]
+	(No symbol) [0x00EEEBB5]
+	(No symbol) [0x00EE1640]
+	BaseThreadInitThunk [0x769E7BA9+25]
+	RtlInitializeExceptionChain [0x778FC0CB+107]
+	RtlClearBits [0x778FC04F+191]
+
+2024-11-09 14:36:29 INFO Test Contact_us Starting
+2024-11-09 14:36:31 INFO Get alert message
+2024-11-09 14:36:31 INFO Alert message is Form successfully submitted
